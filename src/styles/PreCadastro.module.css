@@ -1,0 +1,108 @@
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle, #55B1E6CC, #26119DCC);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  padding-right: 100px;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 23%;
+  height: 377px;
+  width: 386px;
+  z-index: 100;
+}
+
+.mundoLogo {
+  position: absolute;
+  top: 30px;
+  right: 13%;
+  height: 200px;
+  width: 200px;
+  z-index: 1000;
+}
+
+.prancheta {
+  position: absolute;
+  bottom: -15%;
+  left: 20%;
+  transform: translateY(-50%);
+  width: 541px;
+  height: 603px;
+}
+
+.loginBox {
+  width: 350px;
+  margin-right: 5%;
+}
+
+.welcomeContainer {
+  background-color: rgba(37, 49, 90, 0.53);
+  border-radius: 30px;
+  padding: 40px;
+  backdrop-filter: blur(5px);
+}
+
+.welcomeTitle {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.categoryButton {
+  background-color: transparent;
+  border: 2px solid #FFC107;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.categoryButton:hover {
+  background-color: rgba(255, 193, 7, 0.2);
+  transform: translateY(-2px);
+}
+
+.categoryButton:active {
+  transform: translateY(0);
+  background-color: rgba(255, 193, 7, 0.3);
+}
+
+.continueButton {
+  background-color: #FFC107;
+  color: black;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.continueButton:hover {
+  background-color: rgb(221, 168, 10);
+  transform: translateY(-2px);
+}
+
+.continueButton:active {
+  transform: translateY(0);
+  background-color: rgb(221, 168, 10);
+}
